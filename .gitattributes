@@ -1,2 +1,43 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+class Budget:
+    def __init__(self,name,amount):
+            self.name=name
+            self.amount=amount
+        
+food=Budget('deposit',200)
+clothing=Budget('deposit',500)
+entertainment=Budget('deposit',700)
+
+
+print(food.name + '' + str(food.amount))
+print(clothing.name + '' + str(clothing.amount))
+print(entertainment.name + '' + str(entertainment.amount))
+
+
+food=Budget('withdraw',200)
+clothing=Budget('withdraw',500)
+entertainment=Budget('withdraw',700)
+
+
+print(food.name + '' + str(food.amount))
+print(clothing.name + '' + str(clothing.amount))
+print(entertainment.name + '' + str(entertainment.amount))
+
+
+food=Budget('balances',200)
+clothing=Budget('balances',500)
+entertainment=Budget('balances',700)
+
+
+print(food.name + '' + str(food.amount))
+print(clothing.name + '' + str(clothing.amount))
+print(entertainment.name + '' + str(entertainment.amount))
+
+
+food=Budget('Transfer balance',200)
+clothing=Budget('Transfer balance',500)
+entertainment=Budget('Transfer balances',700)
+
+
+print(food.name + '' + str(food.amount))
+print(clothing.name + '' + str(clothing.amount))
+print(entertainment.name + '' + str(entertainment.amount))
